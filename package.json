@@ -1,0 +1,33 @@
+{
+  "name": "kyc-backend",
+  "version": "1.0.0",
+  "description": "KYC system backend with Express, Sequelize ORM, MySQL, and JWT authentication",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [
+    "express",
+    "sequelize",
+    "mysql",
+    "jwt",
+    "kyc",
+    "backend"
+  ],
+  "author": "Prahalad Mankoliya",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.2",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
